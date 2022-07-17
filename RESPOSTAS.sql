@@ -27,6 +27,6 @@ select id_cliente_conta,
        descricao, 
        SUM(valor) AS "Saldo"
 FROM transacao 
-JOIN tipo_transacao oN transacao.id_tipo_transacao = tipo_transacao.id
+JOIN tipo_transacao ON transacao.id_tipo_transacao = tipo_transacao.id
 WHERE id_tipo_transacao = 1 GROUP BY id_cliente_conta ORDER BY id_cliente_conta
  
