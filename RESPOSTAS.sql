@@ -1,4 +1,4 @@
--- Questão 1
+-- Questão 1 RESPOSTA
 SELECT cliente.id, 
 	   cliente.nome, 
        cliente_conta.id_cliente,
@@ -21,7 +21,7 @@ ORDER BY valor asc
 limit(5);
 
 
--- Questão 3
+-- Questão 3 RESPOSTA
 select id_cliente_conta, 
 	   valor, 
        descricao, 
